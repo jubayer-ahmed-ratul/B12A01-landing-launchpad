@@ -151,11 +151,40 @@ main{
 }
 .reviewer{
     display: flex;
-    align-items: center;
+    
     gap: 20px;
     
 }
 
+/*FOCUS SECTION*/
+.focus{
+    text-align: center;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    background-color: white;
+    height: 700px;
+    border-radius: 20px;
+    margin-bottom: 137px;
+    
+}
+.focus h2{
+    font-size: 50px;
+    padding-top: 60px ;
+    
+}
+
+.focus p{
+     color: rgb(99, 93, 93);
+     margin-top: 20px;
+}
+.focus button{
+    margin: 30px auto;
+}
+
+.focus img{
+    border-radius: 20px;
+}
 
 
 
